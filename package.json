@@ -1,0 +1,35 @@
+{
+  "name": "cbsl-exchange-rates",
+  "version": "1.0.0",
+  "description": "Fetch live exchange rates from the Central Bank of Sri Lanka (CBSL)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "keywords": [
+    "cbsl",
+    "exchange-rates",
+    "sri-lanka",
+    "lkr",
+    "forex",
+    "currency",
+    "central-bank"
+  ],
+  "author": "GeekHirushaDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeekHirushaDev/CBSL-Exchange-Rates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GeekHirushaDev/CBSL-Exchange-Rates/issues"
+  },
+  "homepage": "https://github.com/GeekHirushaDev/CBSL-Exchange-Rates#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
